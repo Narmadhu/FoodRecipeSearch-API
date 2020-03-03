@@ -1,0 +1,30 @@
+.App {
+  background-color: khaki;
+  min-height: 100vh;
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 40%;
+  border: none;
+  padding: 10px;
+}
+
+.searxh-btn {
+  border: none;
+  padding: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
